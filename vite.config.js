@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: { port: 3000 },
-  base: '/w.1/'  // 👈 important for GitHub Pages
+  base: './', // make asset URLs relative
 })
